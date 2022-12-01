@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap');
+body {
+    background: #e5e5e5;
+    font: normal 14pt Arial;
+}
+header {
+    color: black;
+    text-align: center;
+
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-size: 12px;
+    
+
+}
+
+.msg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+/* FORML LOGIN*/
+
+button {   
+    background-color: #4CAF50;   
+    width: 100%;  
+     color: white;   
+     padding: 15px;   
+     margin: 10px 0px;   
+     border: none;   
+     cursor: pointer;   
+      }   
+form {   
+     border: 3px solid #f1f1f1;   
+ }   
+input[type=text], input[type=password] {   
+     width: 100%;   
+     margin: 8px 0;  
+     padding: 12px 20px;   
+     display: inline-block;   
+     border: 2px solid #e5e5e5;   
+     box-sizing: border-box;   
+ }  
+button:hover {   
+     opacity: 0.7;   
+ }   
+.cancelbtn {   
+     width: auto;   
+     padding: 10px 18px;  
+     margin: 10px 5px;  
+ }   
+  
+.container {   
+     padding: 25px;   
+ }   
+#topo{
+    width: 7%;
+    background-color:lightskyblue;
+    height: 10%;
+}
+.border-nav{
+    border-bottom: solid 1px #eee5e5;
+    background-color: #f1f1f1;
+}
+.btn-danger {
+    width: 100%;
+}
+.btn-warning {
+    width: 100%;
+}
+.btn-success {
+    width: 100%;
+}
+.info-chamado{
+    font-size: 15px;
+}
